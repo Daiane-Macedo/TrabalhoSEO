@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Body;
+    src: url(Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: Body;
+    src: url(Raleway-Regular.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Titulo post;
+    src: url(JuliusSansOne-Regular.ttf);
+    font-weight: bold;
+}
