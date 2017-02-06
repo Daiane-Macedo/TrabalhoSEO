@@ -80,16 +80,15 @@ header{
     padding: 0px 5px;
 }
 
-.titulo{
-    width: 100%;
-    text-align: center;
-    padding: 200px 0px;
+.redesmenu a{
+    color: #978B72;
+    transition: 0.2s;
 }
 
-.titulo h2{
-    font-family: Titulo;
-    font-size: 80px;
+.redesmenu a:hover{
     color: #BD754F;
+    text-decoration: none;
+    transition: 0.2s;
 }
 
 .navbar {
@@ -113,11 +112,13 @@ header{
 
 .navbar-inverse .navbar-nav>li>a {
     color: #978B72;
+    transition: 0.2s;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #BD754F !important;
     text-decoration: underline;
+    transition: 0.2s;
 }
 
 .navbar-inverse .navbar-nav>li>a:active {
@@ -168,6 +169,7 @@ header{
 
 .posts h2 a{
     color: #BD754F;
+    transition: 0.2s;
 }
 
 .posts h1{
@@ -184,10 +186,12 @@ header{
 
 .date a{
     color: #978B72;
+    transition: 0.2s;
 }
 
 .date a:hover{
     color: #BD754F;
+    transition: 0.2s;
 }
 
 .ler{
@@ -197,12 +201,14 @@ header{
     color: #A0A677;
     border: 2px solid #BDC48D;
     margin-right: 50px;
+    transition: 0.2s;
 }
 
 .ler:hover{
     background-color: #BDC48D;
     text-decoration: none;
     color: white;
+    transition: 0.2s;
 }
 
 .alignright{
@@ -220,11 +226,13 @@ header{
 }
 
 .pages a{
-    color: #978B72;
+    color: #BDC48D;
+    transition: 0.2s;
 }
 
 .pages a:hover{
-    color: #BD754F;
+    color: #A0A677;
+    transition: 0.2s;
 }
 
 /** FIM POSTS **/
