@@ -124,7 +124,7 @@ header{
 .nomedosite{
     text-align: center;
     margin-top: 150px;
-    padding-bottom: 350px;
+    padding-bottom: 300px;
 }
 
 .nomedosite h2{
@@ -201,16 +201,25 @@ header{
 /** FIM POSTS **/
 
 
+/** OQUEFAZEMOS **/
+.oquefazemos h1{
+    font-size: 18px;
+    padding: 0px 20px 40px 20px;
+    margin-bottom: 80px;
+    border-bottom: 2px dotted #978B72;
+}
 /** BIO **/
 
 
 .bio{
     text-align: center;
+    margin-top: 50px;
     padding: 75px;
+    
 }
 .colab{
-    margin-bottom: 40px;
-    font-size: 22px;
+    margin-bottom: 20px;
+    font-size: 24px;
 }
 
 .daiane{
@@ -244,8 +253,20 @@ header{
 
 
 @media screen and (max-width: 768px) {
-    header{
-        height: 300px;
+    .nomedosite{
+        margin-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    .nomedosite h2{
+        font-family: Titulo;
+        font-size: 60px;
+        color: #BD754F;
+    }
+
+    .nomedosite h3{
+        padding-left: 10px;
+        font-size: 20px;
     }
     .posts{
         margin: 0px;
